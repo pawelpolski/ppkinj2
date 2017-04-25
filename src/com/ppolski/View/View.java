@@ -18,13 +18,13 @@ public class View extends JFrame {
     private JPanel panel1;
     private JTextField textField1;
     private JButton button1;
-    private JList list1;
+//    private JList list1;
     private JTextField textField2;
     private JLabel idLabel;
     private JScrollPane scroll;
     private JTable table1;
 
-    private DefaultListModel listOfSerialNumbers = new DefaultListModel();
+//    private DefaultListModel listOfSerialNumbers = new DefaultListModel();
     private DefaultTableModel tableModel;
 
     private java.util.List<Equipment> eqDB;
@@ -36,7 +36,7 @@ public class View extends JFrame {
         frame.setVisible(true);
         frame.setSize(1000, 500);
         frame.setResizable(true);
-        list1.setModel(listOfSerialNumbers);
+//        list1.setModel(listOfSerialNumbers);
 
 
         this.tableModel = new DefaultTableModel();
@@ -95,11 +95,11 @@ public class View extends JFrame {
     }
 
 
-    public void addToList(String addons) {
-
-        listOfSerialNumbers.add(0, addons);
-
-    }
+//    public void addToList(String addons) {
+//
+//        listOfSerialNumbers.add(0, addons);
+//
+//    }
 
 
     public void addListener(ActionListener listenForButton1) {
