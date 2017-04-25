@@ -1,6 +1,5 @@
 package com.ppolski.Model;
 
-import java.util.ArrayList;
 
 /**
  * Created by pawelpolski on 23.04.2017.
@@ -20,19 +19,19 @@ public class Equipment {
     }
 
     public int getId() {
-        return this.id;
+        return id;
     }
 
     public String getSerialNumber() {
-        return this.serialNumber;
+        return serialNumber;
     }
 
     public String getType() {
-        return this.type;
+        return type;
     }
 
     public String toString() {
-      return this.id+";"+this.serialNumber+";"+this.type;
+      return id+";"+serialNumber+";"+type;
 
     }
 
