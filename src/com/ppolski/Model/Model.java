@@ -7,6 +7,7 @@ import java.util.Vector;
 /**
  * Created by pawelpolski on 19.04.2017.
  */
+
 public class Model {
 
     private int id;
