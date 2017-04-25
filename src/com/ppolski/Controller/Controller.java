@@ -21,14 +21,15 @@ public class Controller {
         this.theView = theView;
         this.theModel = theModel;
         this.theView.addListener(new Listener());
-        theView.setLabelField(String.valueOf(theModel.getDBSize()));
 
-        for (int i = 0; i <= theModel.getDBSize() - 1; i++) {
+     // theView.setLabelField(String.valueOf(theModel.getDBSize()));
 
-            theModel.marge(i);
-            theView.addToList(theModel.getMarged());
-
-        }
+//        for (int i = 0; i <= theModel.getDBSize() - 1; i++) {
+//
+//            theModel.marge(i);
+//            theView.addToList(theModel.getMarged());
+//
+//        }
 
     }
 
@@ -40,19 +41,19 @@ public class Controller {
 
             theModel.setType(theView.getTypeField()); // sets type in model, taking data from type field in view
 
-            theModel.addToDB(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
+//            theModel.addToDB(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
 
-            theView.addToList(theModel.getDBSize() - 1 + ";" + theModel.getSerialNumber() + ";" + theModel.getType());
+//            theView.addToList(theModel.getDBSize() - 1 + ";" + theModel.getSerialNumber() + ";" + theModel.getType());
 
-            theModel.addMarged(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
+//            theModel.addMarged(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
 
-            theView.addToTable(theModel.getDBSize() - 1, theModel.getSerialNumber(), theModel.getType());
+            theView.addToTable(theModel.getId(), theModel.getSerialNumber(), theModel.getType());
 
             theView.setTypeField("");
 
             theView.setSNField("");
 
-            theView.setLabelField(String.valueOf(theModel.getDBSize()));
+           // theView.setLabelField(String.valueOf(theModel.getDBSize()));
         }
 
     }

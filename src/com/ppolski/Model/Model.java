@@ -13,46 +13,46 @@ public class Model {
     private int id;
     private String serialNumber;
     private String type;
-    private String marged;
+//    private String marged;
 
-    private List<Equipment> personDB;
+//    private List<Equipment> personDB;
 
     public Model() {
-        personDB = new Vector<Equipment>();
-
-        personDB.add(new Equipment(0, "101", "dekoder"));
-        personDB.add(new Equipment(1, "102", "modem"));
-        personDB.add(new Equipment(2, "103", "router"));
-        personDB.add(new Equipment(3, "104", "router"));
-        personDB.add(new Equipment(4, "104", "router"));
-
-    }
-
-
-    public void marge(int id) {
-
-        this.marged = "" + personDB.get(id);
-
-    }
-
-    public int getDBSize() {
-
-        return personDB.size();
+//        personDB = new Vector<Equipment>();
+//
+//        personDB.add(new Equipment(0, "101", "dekoder"));
+//        personDB.add(new Equipment(1, "102", "modem"));
+//        personDB.add(new Equipment(2, "103", "router"));
+//        personDB.add(new Equipment(3, "104", "router"));
+//        personDB.add(new Equipment(4, "104", "router"));
 
     }
 
 
-    public void addToDB(int id, String serialNumber, String type) {
+//    public void marge(int id) {
+//
+//        this.marged = "" + personDB.get(id);
+//
+//    }
 
-        personDB.add(new Equipment(id, serialNumber, type));
+//    public int getDBSize() {
+//
+//        return personDB.size();
+//
+//    }
+//
+//
+//    public void addToDB(int id, String serialNumber, String type) {
+//
+//        personDB.add(new Equipment(id, serialNumber, type));
+//
+//    }
 
-    }
-
-    public void addMarged(int id, String serialNumber, String type) {
-
-        this.marged = String.valueOf(id) + ";" + serialNumber + ";" + type + ";";
-
-    }
+//    public void addMarged(int id, String serialNumber, String type) {
+//
+//        this.marged = String.valueOf(id) + ";" + serialNumber + ";" + type + ";";
+//
+//    }
 
     public String getType() {
 
@@ -66,15 +66,21 @@ public class Model {
 
     }
 
-    public void setSerialNumber(String sn) {
+    public int getId() {
 
-        this.serialNumber = sn;
+        return id;
 
     }
 
-    public String getMarged() {
+    public void setId(int id) {
 
-        return marged;
+        this.id = id;
+
+    }
+
+    public void setSerialNumber(String sn) {
+
+        this.serialNumber = sn;
 
     }
 
@@ -83,4 +89,12 @@ public class Model {
         return serialNumber;
 
     }
+
+//    public String getMarged() {
+//
+//        return marged;
+//
+//    }
+
+
 }

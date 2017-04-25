@@ -30,10 +30,10 @@ public class Equipment {
         return type;
     }
 
-    public String toString() {
-      return id+";"+serialNumber+";"+type;
-
-    }
+//    public String toString() {
+//      return id+";"+serialNumber+";"+type;
+//
+//    }
 
 
 
