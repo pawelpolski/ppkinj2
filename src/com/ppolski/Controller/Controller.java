@@ -41,11 +41,11 @@ public class Controller {
 
             theModel.addToDB(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
 
-            theView.addToList(theModel.getDBSize() -1 +";"+theModel.getSerialNumber()+";"+theModel.getType());
+            theView.addToList(theModel.getDBSize() - 1 + ";" + theModel.getSerialNumber() + ";" + theModel.getType());
 
             theModel.addMarged(theModel.getDBSize() - 1, theView.getSNField(), theView.getTypeField());
 
-            theView.addToTable(theModel.getDBSize() -1, theModel.getSerialNumber(), theModel.getType());
+            theView.addToTable(theModel.getDBSize() - 1, theModel.getSerialNumber(), theModel.getType());
             //theView.addToList(theModel.getMarged());
 
             theView.setTypeField("");

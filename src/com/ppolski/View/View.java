@@ -55,7 +55,6 @@ public class View extends JFrame {
     }
 
 
-
     public String getSNField() {
 
         return textField1.getText();
