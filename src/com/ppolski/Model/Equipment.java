@@ -3,7 +3,7 @@ package com.ppolski.Model;
 import java.util.ArrayList;
 
 /**
- * Created by macbook on 23.04.2017.
+ * Created by pawelpolski on 23.04.2017.
  */
 
 public class Equipment {

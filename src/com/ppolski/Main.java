@@ -5,8 +5,10 @@ import com.ppolski.Model.Model;
 import com.ppolski.View.View;
 
 /**
- * Created by macbook on 19.04.2017.
+ * Created by pawelpolski on 23.04.2017.
+ * te
  */
+
 
 public class Main {
 
