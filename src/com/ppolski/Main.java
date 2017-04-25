@@ -4,10 +4,7 @@ import com.ppolski.Controller.Controller;
 import com.ppolski.Model.Model;
 import com.ppolski.View.View;
 
-/**
- * Created by macbook on 19.04.2017.
- * test github
- */
+
 
 public class Main {
 
