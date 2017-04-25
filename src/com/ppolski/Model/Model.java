@@ -32,7 +32,7 @@ public class Model {
 
     public void marge(int id) {
 
-        this.marged = ""+personDB.get(id);
+        this.marged = "" + personDB.get(id);
 
     }
 
