@@ -11,6 +11,7 @@ import java.util.*;
 /**
  * Created by pawelpolski on 19.04.2017.
  */
+
 public class View extends JFrame {
 
     private JTabbedPane tabbedPane1;
@@ -25,14 +26,13 @@ public class View extends JFrame {
 
     private DefaultListModel listOfSerialNumbers = new DefaultListModel();
     private DefaultTableModel tableModel;
+
     private java.util.List<Equipment> eqDB;
 
     public View() {
         JFrame frame = new JFrame("MAGAZYN");
         frame.setContentPane(panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-
         frame.setVisible(true);
         frame.setSize(1000, 500);
         frame.setResizable(true);
@@ -50,6 +50,11 @@ public class View extends JFrame {
         tableModel.addColumn("Typ");
 
         eqDB = new Vector<Equipment>();
+        tableModel.addRow(new Object[]{1, "10001", "Dekoder"});
+        tableModel.addRow(new Object[]{2, "10002", "Modem"});
+        tableModel.addRow(new Object[]{3, "10003", "CI+"});
+        tableModel.addRow(new Object[]{4, "10004", "Router"});
+
         table1.setModel(tableModel);
 
     }
@@ -104,7 +109,9 @@ public class View extends JFrame {
     }
 
     public void addToTable(int id, String serialNumber, String type) {
+
         tableModel.addRow(new Object[]{id, serialNumber, type});
+
     }
 
 }
