@@ -18,13 +18,11 @@ public class View extends JFrame {
     private JPanel panel1;
     private JTextField textField1;
     private JButton button1;
-//    private JList list1;
     private JTextField textField2;
     private JLabel idLabel;
     private JScrollPane scroll;
     private JTable table1;
 
-//    private DefaultListModel listOfSerialNumbers = new DefaultListModel();
     private DefaultTableModel tableModel;
 
     private java.util.List<Equipment> eqDB;
@@ -36,7 +34,7 @@ public class View extends JFrame {
         frame.setVisible(true);
         frame.setSize(1000, 500);
         frame.setResizable(true);
-//        list1.setModel(listOfSerialNumbers);
+
 
 
         this.tableModel = new DefaultTableModel();
@@ -48,7 +46,6 @@ public class View extends JFrame {
         tableModel.addColumn("ID");
         tableModel.addColumn("Numer seryjny");
         tableModel.addColumn("Typ");
-
         eqDB = new Vector<Equipment>();
         tableModel.addRow(new Object[]{1, "10001", "Dekoder"});
         tableModel.addRow(new Object[]{2, "10002", "Modem"});
@@ -59,6 +56,40 @@ public class View extends JFrame {
 
     }
 
+    public int getRowCount() {
+
+       return tableModel.getRowCount();
+
+    }
+
+    public int getLastRowId() {
+        int allRows = getRowCount()-1;
+        int lastRow = (int) getIDFromTB(allRows);
+        lastRow++;
+        return lastRow;
+
+    }
+
+    public Object getIDFromTB(int i) {
+
+        return tableModel.getValueAt(i, 0);
+
+    }
+
+
+    public Object getSNFromTB() {
+
+        int i = table1.getSelectedRow();
+        return tableModel.getValueAt(i, 1);
+
+    }
+
+    public Object getTypeFromTB() {
+
+        int i = table1.getSelectedRow();
+        return tableModel.getValueAt(i, 2);
+
+    }
 
     public String getSNField() {
 
@@ -66,6 +97,11 @@ public class View extends JFrame {
 
     }
 
+    public String getLabelField() {
+
+        return idLabel.getText();
+
+    }
 
     public void setSNField(String input) {
 
@@ -74,9 +110,10 @@ public class View extends JFrame {
     }
 
 
-    public void setLabelField(String input) {
+    public void setLabelField(int input) {
 
-        idLabel.setText(input);
+        idLabel.setText(String.valueOf(input));
+
 
     }
 
@@ -94,21 +131,13 @@ public class View extends JFrame {
 
     }
 
-
-//    public void addToList(String addons) {
-//
-//        listOfSerialNumbers.add(0, addons);
-//
-//    }
-
-
     public void addListener(ActionListener listenForButton1) {
 
         button1.addActionListener(listenForButton1);
 
     }
 
-    public void addToTable(int id, String serialNumber, String type) {
+    public void addToTable(String id, String serialNumber, String type) {
 
         tableModel.addRow(new Object[]{id, serialNumber, type});
 

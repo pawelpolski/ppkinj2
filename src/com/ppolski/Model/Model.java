@@ -13,9 +13,7 @@ public class Model {
     private int id;
     private String serialNumber;
     private String type;
-//    private String marged;
 
-//    private List<Equipment> personDB;
 
     public Model() {
 //        personDB = new Vector<Equipment>();
