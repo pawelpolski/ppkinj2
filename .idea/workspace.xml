@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27e8fbcd-419d-464e-838e-1e79b69dffdd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_mac/keymap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_mac/laf.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_mac/path.macros.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debugger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/editor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filetypes.xml" afterPath="" />
-    </list>
+    <list default="true" id="27e8fbcd-419d-464e-838e-1e79b69dffdd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
