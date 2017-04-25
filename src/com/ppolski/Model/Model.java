@@ -18,12 +18,13 @@ public class Model {
     private List<Equipment> personDB;
 
     public Model() {
-        personDB = new ArrayList<Equipment>();
+        personDB = new Vector<Equipment>();
 
         personDB.add(new Equipment(0, "101", "dekoder"));
         personDB.add(new Equipment(1, "102", "modem"));
         personDB.add(new Equipment(2, "103", "router"));
         personDB.add(new Equipment(3, "104", "router"));
+        personDB.add(new Equipment(4, "104", "router"));
 
     }
 
