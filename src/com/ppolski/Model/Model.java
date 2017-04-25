@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Vector;
 
 /**
- * Created by macbook on 19.04.2017.
+ * Created by pawelpolski on 19.04.2017.
  */
 public class Model {
 

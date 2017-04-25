@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.util.*;
 
 /**
- * Created by macbook on 19.04.2017.
+ * Created by pawelpolski on 19.04.2017.
  */
 public class View extends JFrame {
 
