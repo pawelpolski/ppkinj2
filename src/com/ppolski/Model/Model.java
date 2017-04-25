@@ -14,7 +14,6 @@ public class Model {
     private String serialNumber;
     private String type;
     private String marged;
-    private Equipment Eq;
 
     private List<Equipment> personDB;
 
