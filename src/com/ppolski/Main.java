@@ -4,6 +4,9 @@ import com.ppolski.Controller.Controller;
 import com.ppolski.Model.Model;
 import com.ppolski.View.View;
 
+/**
+ * Created by pawelpolski on 23.04.2017.
+ */
 
 
 public class Main {
