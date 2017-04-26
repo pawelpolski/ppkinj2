@@ -1,12 +1,12 @@
 package com.ppolski.View;
 
-import com.ppolski.Model.Equipment;
+import com.ppolski.Model.EquipmentModel;
+import com.ppolski.Model.Model;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.*;
 
 /**
  * Created by pawelpolski on 19.04.2017.
@@ -23,9 +23,8 @@ public class View extends JFrame {
     private JScrollPane scroll;
     private JTable table1;
 
-    private DefaultTableModel tableModel;
+    private DefaultTableModel tableModel = new DefaultTableModel();
 
-    private java.util.List<Equipment> eqDB;
 
     public View() {
         JFrame frame = new JFrame("MAGAZYN");
@@ -34,60 +33,22 @@ public class View extends JFrame {
         frame.setVisible(true);
         frame.setSize(1000, 500);
         frame.setResizable(true);
-
-
-
-        this.tableModel = new DefaultTableModel();
-
         table1.setAutoCreateRowSorter(true);
         table1.setFillsViewportHeight(true);
         table1.setPreferredScrollableViewportSize(new Dimension(300, 300));
         frame.pack();
+
+
+
         tableModel.addColumn("ID");
         tableModel.addColumn("Numer seryjny");
         tableModel.addColumn("Typ");
-        eqDB = new Vector<Equipment>();
-        tableModel.addRow(new Object[]{1, "10001", "Dekoder"});
+        Object[] header = {1, "Name", "Quantity"};
+        tableModel.addRow(header);
         tableModel.addRow(new Object[]{2, "10002", "Modem"});
         tableModel.addRow(new Object[]{3, "10003", "CI+"});
-        tableModel.addRow(new Object[]{4, "10004", "Router"});
 
         table1.setModel(tableModel);
-
-    }
-
-    public int getRowCount() {
-
-       return tableModel.getRowCount();
-
-    }
-
-    public int getLastRowId() {
-        int allRows = getRowCount()-1;
-        int lastRow = (int) getIDFromTB(allRows);
-        lastRow++;
-        return lastRow;
-
-    }
-
-    public Object getIDFromTB(int i) {
-
-        return tableModel.getValueAt(i, 0);
-
-    }
-
-
-    public Object getSNFromTB() {
-
-        int i = table1.getSelectedRow();
-        return tableModel.getValueAt(i, 1);
-
-    }
-
-    public Object getTypeFromTB() {
-
-        int i = table1.getSelectedRow();
-        return tableModel.getValueAt(i, 2);
 
     }
 
@@ -109,7 +70,6 @@ public class View extends JFrame {
 
     }
 
-
     public void setLabelField(int input) {
 
         idLabel.setText(String.valueOf(input));
@@ -117,13 +77,11 @@ public class View extends JFrame {
 
     }
 
-
     public String getTypeField() {
 
         return textField2.getText();
 
     }
-
 
     public void setTypeField(String input) {
 

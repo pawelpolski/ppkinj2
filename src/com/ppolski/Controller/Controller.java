@@ -1,6 +1,6 @@
 package com.ppolski.Controller;
 
-import com.ppolski.Model.Equipment;
+import com.ppolski.Model.EquipmentModel;
 import com.ppolski.Model.Model;
 import com.ppolski.View.View;
 
@@ -14,14 +14,14 @@ public class Controller {
 
     private View theView;
     private Model theModel;
-
+    private EquipmentModel theEquipmentModel;
 
     public Controller(View theView, Model theModel) {
 
         this.theView = theView;
         this.theModel = theModel;
         this.theView.addListener(new Listener());
-        theView.setLabelField(theView.getRowCount()+1);
+
 
     }
 
@@ -29,17 +29,13 @@ public class Controller {
 
         public void actionPerformed(ActionEvent e) {
 
-            theModel.setSerialNumber(theView.getSNField()); // sets sn in model, taking data from SN field in view
+            theEquipmentModel.setSerialNumber(theView.getSNField()); // sets sn in model, taking data from SN field in view
 
-            theModel.setType(theView.getTypeField()); // sets type in model, taking data from type field in view
+            theEquipmentModel.setType(theView.getTypeField()); // sets type in model, taking data from type field in view
 
-            theView.addToTable(theView.getLabelField(), theModel.getSerialNumber(), theModel.getType());
+            theView.addToTable(theView.getLabelField(), theEquipmentModel.getSerialNumber(), theEquipmentModel.getType());
 
 
-            theView.setLabelField(theView.getRowCount()+1);
-
-            //theView.setSNField((String) theView.getSNFromTB());
-            //theView.setTypeField((String) theView.getTypeFromTB());
             theView.setSNField("");
             theView.setTypeField("");
 
