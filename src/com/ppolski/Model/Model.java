@@ -25,12 +25,37 @@ public class Model {
 
     }
 
+
+
+
+    public String getSelectedId(int row) {
+        Object j = tableModel1.getValueAt(row,0);
+        String id = String.valueOf(j);
+        return id;
+    }
+
+    public void editRow(int row, String idField, String serialNumberField, String typeField) {
+        Object i = tableModel1.getValueAt(row, 0);
+        Object s = tableModel1.getValueAt(row, 1);
+        Object t = tableModel1.getValueAt(row, 2);
+        String id = String.valueOf(i);
+        String sn = String.valueOf(s);
+        String type = String.valueOf(t);
+        Vector rowEdit = new Vector();
+        rowEdit.add(id);
+        rowEdit.add(sn);
+        rowEdit.add(type);
+        tableModel1.setValueAt(idField,row,0);
+        tableModel1.setValueAt(serialNumberField,row,1);
+        tableModel1.setValueAt(typeField,row,2);
+    }
+
+
     public int getLastRowId(){
         int i = tableModel1.getRowCount();
         Object j = tableModel1.getValueAt(i-1,0);
         String k = String.valueOf(j);
         return Integer.valueOf(k);
-
     }
 
 

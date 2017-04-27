@@ -36,6 +36,27 @@ public class View extends JFrame {
         table1.setPreferredScrollableViewportSize(new Dimension(300, 300));
         frame.pack();
 
+
+
+    }
+    public JTextField getTextField1() {
+
+        return textField1;
+    }
+
+    public JTextField getTextField2() {
+
+        return textField2;
+    }
+
+    public JButton getAddButton() {
+
+        return button1;
+    }
+    
+    public JButton getEditButton() {
+
+        return editButton;
     }
 
     public JTable getTable1() {
@@ -43,11 +64,17 @@ public class View extends JFrame {
         return table1;
     }
 
+    public int getSelectedRow() {
+
+        return table1.getSelectedRow();
+    }
+
     public String getSNField() {
 
         return textField1.getText();
 
     }
+
 
     public void setSNField(String input) {
 
@@ -85,10 +112,9 @@ public class View extends JFrame {
         button1.addActionListener(listenForButton1);
 
     }
+    public void addListener2(ActionListener listenForButton2) {
 
-    public void addListener2(ActionListener listenForButtonEdit) {
-
-        editButton.addActionListener(listenForButtonEdit);
+        editButton.addActionListener(listenForButton2);
 
     }
 }
