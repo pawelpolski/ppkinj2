@@ -1,12 +1,12 @@
 package com.ppolski.View;
 
-import com.ppolski.Model.EquipmentModel;
 import com.ppolski.Model.Model;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.util.Vector;
 
 /**
  * Created by pawelpolski on 19.04.2017.
@@ -22,6 +22,8 @@ public class View extends JFrame {
     private JLabel idLabel;
     private JScrollPane scroll;
     private JTable table1;
+
+    private Model theModel;
 
     private DefaultTableModel tableModel = new DefaultTableModel();
 
@@ -43,24 +45,32 @@ public class View extends JFrame {
         tableModel.addColumn("ID");
         tableModel.addColumn("Numer seryjny");
         tableModel.addColumn("Typ");
-        Object[] header = {1, "Name", "Quantity"};
-        tableModel.addRow(header);
-        tableModel.addRow(new Object[]{2, "10002", "Modem"});
-        tableModel.addRow(new Object[]{3, "10003", "CI+"});
+
+        tableModel.addRow(new Object[]{1, "10002", "Modem"});
+        tableModel.addRow(new Object[]{2, "10003", "CI+"});
 
         table1.setModel(tableModel);
 
     }
 
+    public int getLastRowId(){
+        int i = tableModel.getRowCount();
+        Object j = tableModel.getValueAt(i-1,0);
+        String k = String.valueOf(j);
+        return Integer.valueOf(k);
+    }
+
+    public void addRow(int id, String serialNumber, String type) {
+        Vector row = new Vector();
+        row.add(id);
+        row.add(serialNumber);
+        row.add(type);
+        tableModel.addRow(row);
+    }
+
     public String getSNField() {
 
         return textField1.getText();
-
-    }
-
-    public String getLabelField() {
-
-        return idLabel.getText();
 
     }
 
@@ -70,7 +80,13 @@ public class View extends JFrame {
 
     }
 
-    public void setLabelField(int input) {
+    public String getLabelField() {
+
+        return idLabel.getText();
+
+    }
+
+    public void setLabelField(String input) {
 
         idLabel.setText(String.valueOf(input));
 
