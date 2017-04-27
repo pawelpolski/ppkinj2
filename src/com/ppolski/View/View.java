@@ -1,12 +1,11 @@
 package com.ppolski.View;
 
-import com.ppolski.Model.Model;
 
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Vector;
+
 
 /**
  * Created by pawelpolski on 19.04.2017.
@@ -22,10 +21,7 @@ public class View extends JFrame {
     private JLabel idLabel;
     private JScrollPane scroll;
     private JTable table1;
-
-    private Model theModel;
-
-    private DefaultTableModel tableModel = new DefaultTableModel();
+    private JButton editButton;
 
 
     public View() {
@@ -40,32 +36,11 @@ public class View extends JFrame {
         table1.setPreferredScrollableViewportSize(new Dimension(300, 300));
         frame.pack();
 
-
-
-        tableModel.addColumn("ID");
-        tableModel.addColumn("Numer seryjny");
-        tableModel.addColumn("Typ");
-
-        tableModel.addRow(new Object[]{1, "10002", "Modem"});
-        tableModel.addRow(new Object[]{2, "10003", "CI+"});
-
-        table1.setModel(tableModel);
-
     }
 
-    public int getLastRowId(){
-        int i = tableModel.getRowCount();
-        Object j = tableModel.getValueAt(i-1,0);
-        String k = String.valueOf(j);
-        return Integer.valueOf(k);
-    }
+    public JTable getTable1() {
 
-    public void addRow(int id, String serialNumber, String type) {
-        Vector row = new Vector();
-        row.add(id);
-        row.add(serialNumber);
-        row.add(type);
-        tableModel.addRow(row);
+        return table1;
     }
 
     public String getSNField() {
@@ -111,10 +86,9 @@ public class View extends JFrame {
 
     }
 
-    public void addToTable(String id, String serialNumber, String type) {
+    public void addListener2(ActionListener listenForButtonEdit) {
 
-        tableModel.addRow(new Object[]{id, serialNumber, type});
+        editButton.addActionListener(listenForButtonEdit);
 
     }
-
 }

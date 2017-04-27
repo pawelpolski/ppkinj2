@@ -18,14 +18,11 @@ public class Controller {
 
         this.theView = theView;
         this.theModel = theModel;
-
         this.theView.addListener(new Listener());
 
-        theView.addRow(3,"10010103","plc");
-        theView.addRow(4,"12111114","dekoder");
-        theView.addRow(5,"10010105","modem");
 
-        theView.setLabelField(String.valueOf(theView.getLastRowId()+1));
+        theView.getTable1().setModel(theModel.getTableModel());
+        theView.setLabelField(String.valueOf(theModel.getLastRowId()+1));
 
     }
 
@@ -33,21 +30,32 @@ public class Controller {
 
         public void actionPerformed(ActionEvent e) {
 
-            theModel.setSerialNumber(theView.getSNField()); // sets sn in model, taking data from SN field in view
+            /**
+             Takes data from S/N field (View)
+             Sets variable S/N (Model)
+             */
+            theModel.setSerialNumber(theView.getSNField());
 
-            theModel.setType(theView.getTypeField()); // sets type in model, taking data from type field in view
+            /**
+             Takes data from Type field (View)
+             Sets variable Type (Model)
+             */
+            theModel.setType(theView.getTypeField());
 
-            theView.addToTable(theView.getLabelField(), theModel.getSerialNumber(), theModel.getType());
+            /**
+             Add next row to Table, based on input
+             */
+            theModel.addNextRow(Integer.parseInt(theView.getLabelField()), theModel.getSerialNumber(), theModel.getType());
+
+            //theView.getTable1().geta
 
 
-            theView.setLabelField(String.valueOf(theView.getLastRowId()+1));
+            theView.setLabelField(String.valueOf(theModel.getLastRowId()+1));
             theView.setSNField("");
             theView.setTypeField("");
-
+            theView.setTypeField(String.valueOf(theView.getTable1().getSelectedRow()));
         }
-
     }
-
 
 
 
