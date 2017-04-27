@@ -6,10 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/View/View.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/View/View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" afterPath="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/View/View.form" afterPath="$PROJECT_DIR$/src/com/ppolski/View/View.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/View/View.java" afterPath="$PROJECT_DIR$/src/com/ppolski/View/View.java" />
     </list>
     <ignored path="Labolatorium 2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -784,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493311663446</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="After recreate">
+      <created>1493325413991</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1493325413991</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
