@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1dd7f6-f9f7-496e-86ab-24b567ae5884" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Bmi$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Bmi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Klasa.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Main1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Miniprojekt_1/Klasa.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Miniprojekt_1/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Nowa.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller$Listner8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/MVC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/Model.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/miniProjekt_2/View.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Inne/start.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Bmi.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Bmi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Klasa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Main.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Main1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Miniprojekt_1/Klasa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Miniprojekt_1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Nowa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/body.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/Controller.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/MVC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/Model.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/View.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ppolski/Inne/start.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller$Listener.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller$Listener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Main.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Model/Model.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/Model/Model.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/View/View.class" afterPath="$PROJECT_DIR$/out/production/warehouse/com/ppolski/View/View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/Main.java" afterPath="$PROJECT_DIR$/src/com/ppolski/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" afterPath="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/View/View.form" afterPath="$PROJECT_DIR$/src/com/ppolski/View/View.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ppolski/View/View.java" afterPath="$PROJECT_DIR$/src/com/ppolski/View/View.java" />
     </list>
     <ignored path="Labolatorium 2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +96,8 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppolski/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="466">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,18 +105,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppolski/View/View.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +127,8 @@
       <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppolski/Model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/szyfr.java" />
         <option value="$PROJECT_DIR$/src/com/company/Szyfr.java" />
         <option value="$PROJECT_DIR$/src/com/company/Nowa.java" />
         <option value="$PROJECT_DIR$/src/com/company/Body.java" />
@@ -152,16 +213,17 @@
         <option value="$PROJECT_DIR$/src/com/ppolski/Controller/Model.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/te.java" />
-        <option value="$PROJECT_DIR$/src/com/ppolski/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Model/TableModel.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Model/Equipment.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Model/EquipmentModel.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Controller/Listener1.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/Controller/Listener.java" />
+        <option value="$PROJECT_DIR$/src/com/ppolski/Model/equipmentModel.java" />
+        <option value="$PROJECT_DIR$/src/com/ppolski/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/View/View.java" />
-        <option value="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" />
-        <option value="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/ppolski/View/View.form" />
+        <option value="$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/ppolski/Model/Model.java" />
       </list>
     </option>
   </component>
@@ -185,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,12 +322,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppkinj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppkinj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppolski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -280,7 +364,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="SearchEverywhereHistoryKey" value="des&#9;ACTION&#9;ActivateDesignerToolWindow&#10;desi&#9;ACTION&#9;ActivateDesignerToolWindow&#10;desig&#9;ACTION&#9;JFormDesigner.ConvertFormsAction" />
+    <property name="SearchEverywhereHistoryKey" value="Genera&#9;ACTION&#9;GenerateJavadoc&#10;tools&#9;ACTION&#9;ToolsMenu&#10;des&#9;ACTION&#9;ActivateDesignerToolWindow&#10;desi&#9;ACTION&#9;ActivateDesignerToolWindow&#10;desig&#9;ACTION&#9;JFormDesigner.ConvertFormsAction" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -787,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493325413991</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="After recreate">
+      <created>1493325419558</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1493325419558</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -804,28 +895,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="898" y="228" width="136" height="584" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.275" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3187251" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.275" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23240373" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -834,7 +926,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -860,7 +951,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -995,13 +1086,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LINK.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/ppolski/Inne/Main.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppolski/Inne/miniProjekt_2/Main.java">
@@ -1038,64 +1129,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Model/EquipmentModel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Listener1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Listener.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Model/equipmentModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppolski/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Listener1.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/View/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,6 +1152,36 @@
     <entry file="file://$PROJECT_DIR$/src/com/ppolski/View/View.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppolski/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

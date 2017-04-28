@@ -6,14 +6,13 @@ import com.ppolski.View.View;
 
 /**
  * Created by pawelpolski on 23.04.2017.
- * test1
+ * Main class initializes whole program
  */
 
 
 public class Main {
 
     public static void main(String[] args) {
-
 
         View theView = new View();
 
